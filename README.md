@@ -1,4 +1,4 @@
-# Contatless-Fingerprint-Identification
+# Contactless-Fingerprint-Identification
 
 <h2>Team Details</h2>
 <b>Team Number: </b><p>24AACR16</p>
