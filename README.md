@@ -23,3 +23,39 @@ The concept of fingerprint recognition has long existed, with extensive use for 
 In order to tackle these issues, the idea of Fingerprint recognition has to work without any contact, which is our aim of this project. 
 We intend to capture a real time image of the user’s finger and extract the features of the fingerprint ( same as it would generate using a sensor ). We then perform fingerprint recognition using machine learning techniques. Each persons’ fingerprints  are associated to a unique ID, using which identification occurs.
 </p>
+
+<h2>System Requirements</h2>
+
+<pre> 
+Package           Version<br />
+----------------- -----------<br />
+asttokens         2.4.1<br />
+colorama          0.4.6<br />
+comm              0.2.2<br />
+debugpy           1.8.1<br />
+decorator         5.1.1<br />
+executing         2.0.1<br />
+ipykernel         6.29.4<br />
+ipython           8.25.0<br />
+jedi              0.19.1<br />
+jupyter_client    8.6.2<br />
+jupyter_core      5.7.2<br />
+matplotlib-inline 0.1.7<br />
+nest-asyncio      1.6.0<br />
+packaging         24.1<br />
+parso             0.8.4<br />
+pip               23.2.1<br />
+platformdirs      4.2.2<br />
+prompt_toolkit    3.0.47<br />
+psutil            5.9.8<br />
+pure-eval         0.2.2<br />
+Pygments          2.18.0<br />
+python-dateutil   2.9.0.post0<br />
+pywin32           306<br />
+pyzmq             26.0.3<br />
+six               1.16.0<br />
+stack-data        0.6.3<br />
+tornado           6.4.1<br />
+traitlets         5.14.3<br />
+wcwidth           0.2.13<br />
+</pre>
