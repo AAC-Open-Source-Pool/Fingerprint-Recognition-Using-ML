@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Access Denied!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .success-message {
+font-size: 48px; 
+font-weight: bold;
+color: #fb0909; 
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+text-shadow: 0 0 10px rgba(201, 29, 29, 0.5); 
+background-color: rgba(244, 239, 239, 0.2);
+padding: 20px; 
+border-radius: 30px; 
+
+}
+    
+        #video-background {
+                    position: fixed;
+                    right: 0;
+                    bottom: 0;
+                    min-width: 100%;
+                    min-height: 100%;
+                    z-index: -1;
+                  }
+    </style>
+    <body>
+    <video autoplay id="video-background">
+        <source src="C:\Users\bacha\Downloads\video scan.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <script>
+        document.addEventListener("click", function() {
+            document.getElementById("video-background").play();
+        });
+    </script>
+    <script>
+        setTimeout(function() {
+            window.location.href = ''; // Redirect to index.html
+        }, 5000);
+
+        // Play video on click
+        document.addEventListener("click", function() {
+            const video = document.getElementById("video-background");
+            if (video.paused) {
+                video.play();
+            }
+        });
+    </script>
+
+<div class="success-message">
+<span>Access Denied!</span>
+</div>
+    </body>
+</head>
+    </html>

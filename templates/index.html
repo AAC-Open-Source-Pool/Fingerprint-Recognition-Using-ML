@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fingerprint Recognition System</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 130%;
+            min-height: 130%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1; /* Bring the container above the video */
+            background-color: rgba(249, 246, 243, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            width: 350px;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-top: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="file"],
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-group button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <iframe class="video-background" 
+            src="https://www.youtube.com/embed/WL8FiZJ3Qb0?autoplay=1&mute=1&loop=1&playlist=WL8FiZJ3Qb0" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+    </iframe>
+
+    <div class="container">
+        <div class="header">
+            <h2>Fingerprint Recognition System</h2>
+        </div>
+        <form id="registration-form" action="http://127.0.0.1:5000/" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="user_id">User  Id:</label>
+                <input type="text" id="user_id" name="user_id" placeholder="Enter your id" required>
+            </div>
+            <div class="form-group">
+                <label for="fingerprint">Fingerprint Data:</label>
+                <input type="file" id="fingerprint" name="fingerprint" accept=".jpg, .jpeg, .png, .bmp" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="login-btn">Login and Verify</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
