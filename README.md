@@ -19,7 +19,6 @@
 - [Requirements](#requirements) <br>
 - [How to use](#How-to-use) <br>
 - [Preview](#previews)
-- [Contribution](#contribution)
 
   
 <h2>Introduction</h2>
