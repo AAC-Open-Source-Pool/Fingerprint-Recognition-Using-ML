@@ -10,9 +10,6 @@
 <b>Team Member 4:</b><p> Koushik</p>
 <b>Team Member 5:</b><p> Joshika</p>
 
-<div align="center">
-  <img src="">
-</div>
 
 ## Table of Contents
 - [Introduction](#introduction) <br>
@@ -98,5 +95,9 @@ wcwidth           0.2.13<br />
   <img src="https://i.imgur.com/zz2vMHZ_d.webp?maxwidth=760&fidelity=grand" alt="Index UI" ">
   
   <p></br> SUCCESSFUL LOGIN PAGE </p>
-   <img src="https://i.imgur.com/zhUWe9y_d.webp?maxwidth=760&fidelity=grand" alt="Index UI" ">
+   <img src="https://i.imgur.com/zhUWe9y_d.webp?maxwidth=760&fidelity=grand" alt="Granted UI" ">
+   <p></br> UNSUCCESSFUL LOGIN PAGE </p>
+   <img src="https://i.imgur.com/oBGtDZj.jpeg" alt="Denied UI" ">
 </div>
+
+
