@@ -1,5 +1,7 @@
 # Fingerprint-Recognition-Using-ML
-
+<div align = "left"> 
+  <img src = "https://i.imgur.com/5tBePc8_d.webp?maxwidth=760&fidelity=grand" style="height:100px;width:100px;" > 
+</div>
 <h2>Team Details</h2>
 <b>Team Number: </b><p>24AACR16</p>
 <b>Senior Mentor:</b><p> Abhiram Dodda </p>
