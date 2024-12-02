@@ -1,4 +1,4 @@
-# Contactless-Fingerprint-Identification
+# Fingerprint-Recognition-Using-ML
 
 <h2>Team Details</h2>
 <b>Team Number: </b><p>24AACR16</p>
@@ -92,3 +92,11 @@ wcwidth           0.2.13<br />
 
 
 <h2>Preview</h2>
+
+<div style="display: flex; align-items: center;">
+  <p> INDEX PAGE</p>
+  <img src="https://i.imgur.com/zz2vMHZ_d.webp?maxwidth=760&fidelity=grand" alt="Index UI" ">
+  
+  <p></br> SUCCESSFUL LOGIN PAGE </p>
+   <img src="https://i.imgur.com/zhUWe9y_d.webp?maxwidth=760&fidelity=grand" alt="Index UI" ">
+</div>
