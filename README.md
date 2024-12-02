@@ -18,7 +18,7 @@
 - [Requirements](#requirements) <br>
 - [How to use](#How-to-use) <br>
 - [Preview](#previews)
-
+- [Contribution](#contribution)
   
 <h2>Introduction</h2>
 <p> 
@@ -102,4 +102,15 @@ wcwidth           0.2.13<br />
    <img src="https://i.imgur.com/oBGtDZj.jpeg" alt="Denied UI" ">
 </div>
 
+<h2>Contribution</h2>
+<p> We welcome contributions to imporove the project<br>
+To contribute, follow these steps:
+
+1.⁠ ⁠Understand the Project Philosophy: Read through the README.md file to familiarize yourself with the project's goals and structure.
+
+2.⁠ ⁠Maintain Code Consistency: Use the same programming language and library versions as the original code.
+
+3.⁠ ⁠Write Documentation: Explain the changes you're proposing, including identified problems, proposed solutions, and test cases.
+
+4.⁠ ⁠Submit a Pull Request: Follow standard Git etiquette for submitting your contributions.</p>
 
